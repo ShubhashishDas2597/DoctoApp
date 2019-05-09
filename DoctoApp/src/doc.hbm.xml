@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+ 
+<hibernate-mapping>
+<class name="dao.doctor" table="doctor">
+
+<id name="docid">
+<generator class="increment"></generator>
+</id>
+<property name="docpass" />
+<property name="docname" />
+<property name="docph" />
+<property name="docdet" />
+<property name="come" />
+<property name="go" />
+<property name="spcl" />
+
+
+</class>
+</hibernate-mapping>
